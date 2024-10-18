@@ -1,0 +1,2 @@
+# nlp_event_extraction
+基于pytorch的事件抽取任务
