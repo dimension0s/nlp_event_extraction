@@ -44,8 +44,8 @@ class EventData(Dataset):
     def __getitem__(self, idx):
         return self.data[idx]
 
-train_data = EventData("E:\\NLP任务\\事件抽取\\data\\train.json")
-valid_data = EventData("E:\\NLP任务\\事件抽取\\data\\dev.json")
+train_data = EventData("data/train.json")
+valid_data = EventData("data/dev.json")
 
 print(len(train_data))
 print(len(valid_data))
