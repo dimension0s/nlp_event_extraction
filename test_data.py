@@ -16,6 +16,6 @@ def test_data_load(data_file):
     return data
 
 
-test_data = test_data_load("E:\\NLP任务\\事件抽取\\data\\test1.json")
+test_data = test_data_load("data/test.json")
 for idx in range(5):
     print(f'sample {idx}:{test_data[idx]}')
